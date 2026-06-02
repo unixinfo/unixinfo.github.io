@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIXINFO 项目导航</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.1);
+            padding: 40px 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #1a2a3a;
+        }
+        .subtitle {
+            color: #5b7a9a;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #eef2f7;
+            padding-bottom: 1rem;
+        }
+        .button-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            margin: 40px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #f0f4f9;
+            color: #1e3a5f;
+            text-decoration: none;
+            padding: 18px 24px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: all 0.2s ease;
+            border: 1px solid #e2e8f0;
+        }
+        .btn:hover {
+            background: #1e3a5f;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #7c8ea0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📡 UNIXINFO 实验室</h1>
+        <div class="subtitle">技术 · 业余无线电 · 开源项目</div>
+
+        <div class="button-grid">
+            <a href="/bi4mox/" class="btn">📻 业余无线电资料站</a>
+            <!-- 未来可添加更多按钮 -->
+            <a href="#" class="btn">🔧 其他项目 (准备中)</a>
+            <a href="#" class="btn">📝 技术博客 (准备中)</a>
+        </div>
+
+        <div class="footer">
+            GitHub Pages 统一入口 | 项目站点均托管于 <a href="https://github.com/unixinfo" target="_blank">@unixinfo</a>
+        </div>
+    </div>
+</body>
+</html>
